@@ -160,4 +160,13 @@ public class VerifyView extends LinearLayout implements TextWatcher {
         return this;
     }
 
+    public String getTextEntered(){
+        String text = "";
+        for (int i = 0; i < this.rootView.getChildCount(); i++){
+            EditText editText = this.rootView.getChildAt(i).findViewWithTag(i);
+            text += editText.getText().toString();
+        }
+        return text;
+    }
+
 }

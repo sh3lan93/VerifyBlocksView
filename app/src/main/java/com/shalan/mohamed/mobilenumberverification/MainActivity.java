@@ -4,6 +4,8 @@ import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.shalan.mohamed.verificationview.BlocksValuesListener;
@@ -25,7 +27,8 @@ public class MainActivity extends AppCompatActivity implements BlocksValuesListe
 
     @Override
     public void onValueChange(String value, String tag) {
-        Log.i(TAG, "onValueChange: " + value + "\n" + tag);
+
     }
+
 
 }
