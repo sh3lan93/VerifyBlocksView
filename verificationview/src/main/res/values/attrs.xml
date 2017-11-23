@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerifyView">
+        <attr name="num_of_blocks" format="integer"/>
+        <attr name="blocks_text_color" format="reference"/>
+    </declare-styleable>
+</resources>
