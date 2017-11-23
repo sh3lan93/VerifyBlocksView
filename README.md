@@ -13,9 +13,8 @@ Add this to ```build.gradle``` Project level
 allprojects {
 	repositories {
 		...
-		maven { url 'https://jitpack.io' 
-    }
-   }
+		maven { url 'https://jitpack.io' }
+	}
  }
 ```
 Add this to ``` build.gradle ``` Module:app
