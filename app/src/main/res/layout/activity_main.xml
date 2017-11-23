@@ -14,8 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:num_of_blocks="10"
-        app:blocks_text_color="@android:color/holo_red_light"
+        app:num_of_blocks="6"
         />
 
 </android.support.constraint.ConstraintLayout>

@@ -20,13 +20,12 @@ public class MainActivity extends AppCompatActivity implements BlocksValuesListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         verifyView = findViewById(R.id.verifyView);
-        verifyView.setBlockHint(R.string._1);
         verifyView.setBlockValueListener(this);
     }
 
     @Override
     public void onValueChange(String value, String tag) {
-        Toast.makeText(this, value + "\n" + tag, Toast.LENGTH_LONG).show();
+        Log.i(TAG, "onValueChange: " + value + "\n" + tag);
     }
 
 }
