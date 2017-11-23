@@ -107,8 +107,10 @@ public class VerifyView extends LinearLayout implements TextWatcher {
            }
         }
         if (this.blockValueListener != null){
-            EditText editText = this.rootView.getChildAt(lastEditIndex).findViewWithTag(lastEditIndex);
-            blockValueListener.onValueChange(editText.getText().toString(), editText.getTag().toString());
+            if (lastEditIndex >= 0){
+                EditText editText = this.rootView.getChildAt(lastEditIndex).findViewWithTag(lastEditIndex);
+                blockValueListener.onValueChange(editText.getText().toString(), editText.getTag().toString());
+            }
         }
     }
 
