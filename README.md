@@ -1,5 +1,5 @@
 # VerifyBlocksView [![](https://jitpack.io/v/sh3lan93/VerifyBlocksView.svg)](https://jitpack.io/#sh3lan93/VerifyBlocksView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-VerifyBlocksView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6489) [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
-Close
+
 
 Android view for providing blocks (Edit Texts) to achieve verification process.
 This view is enhanced with move to next view when user enter a value in edit text. Providing some methods for controlling value in verification view 
